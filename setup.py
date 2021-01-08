@@ -32,7 +32,7 @@ setup(
     include_package_data=True,
 	keywords='fish sounds',
 	url="https://github.com/xaviermouy/FishSound_Finder",
-    packages=find_packages(include=['fishsound_finder', 'fishsound_finder.*'],exclude=['docs']),
+    packages=find_packages(include=['fishsound_finder', 'fishsound_finder.*'],exclude=['docs', 'example','models']),
     #package_data={"/resources": ["/resources/67674121.181017060806.wav","/resources/config.yaml","/resources/deployment_info.csv","/resources/RF50_model.sav"], "": ["README.md","LICENSE"]},
     install_requires=requirements,
 	setup_requires=setup_requirements,
