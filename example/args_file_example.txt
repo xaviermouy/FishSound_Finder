@@ -1,0 +1,9 @@
+C:.\resources
+C:.\output
+C:.\resources\config.yaml
+C:.\resources\RF50_model.sav
+-d.\resources\deployment_info.csv
+-e.wav
+-f
+-p
+-r

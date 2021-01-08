@@ -1,0 +1,47 @@
+# ####################################################
+# Configuration file for the fish detector
+
+# Parameter values after the semi-columns can be
+# modified as needed butsection names and indentation
+# shoud be kept as is.
+# 
+# Make sure there is a space between the : and the
+# parameter value.
+# ####################################################
+
+AUDIO:
+    channel: 0
+
+SPECTROGRAM:
+    frame_sec: 0.0625 
+    nfft_sec: 0.0853
+    step_sec: 0.01
+    fmin_hz: 0
+    fmax_hz: 1000
+    window_type: 'hann'
+    dB: True
+    use_dask: True
+    dask_chunks: 100
+
+DENOISER:
+    denoiser_name: 'median_equalizer'
+    window_duration_sec: 3
+    use_dask: True
+    dask_chunks: [50,50000]
+
+DETECTOR:
+    detector_name: 'BlobDetector'
+    kernel_duration_sec: 0.1
+    kernel_bandwidth_hz: 300
+    threshold: 10
+    duration_min_sec: 0.05
+    bandwidth_min_hz: 40
+    use_dask: True
+    dask_chunks: [4096,50000]
+
+MEASURER:
+    measurer_name: 'SpectrogramFeatures'
+    resolution_time_sec: 0.001
+    resolution_freq_hz: 0.1
+    interp: 'linear'
+    use_dask: True

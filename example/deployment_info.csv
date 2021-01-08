@@ -1,0 +1,2 @@
+audio_channel_number,UTC_offset,sampling_frequency,bit_depth,mooring_platform_name,recorder_type,recorder_SN,hydrophone_model,hydrophone_SN,hydrophone_depth,location_name,location_lat,location_lon,location_water_depth,deployment_ID,deployment_date,recovery_date
+1,-8,96000,24,bottom weight,SoundTrap 300,1342218252,SoundTrap 300,1342218252,13.4,Snake Island RCA-In,49.21166667,-123.88405,13.4,SI-RCAIn-20190410,20190410T150155,20190625T051114
