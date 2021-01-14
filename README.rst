@@ -1,5 +1,6 @@
 .. image:: docs/source/_static/fishsound_finder_logo.png
-
+   :scale: 60 %
+   :align: center
 
 Welcome to FishSound Finder!
 ============================================
