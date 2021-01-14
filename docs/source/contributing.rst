@@ -1,7 +1,7 @@
 Contributing to FishSound Finder
 ================================
 
-We want to build a community of people interested in fish sounds so we can make this tool better.
+We welcome anyone interested in fish sounds to contribute and make this tool better.
 **If you want to contribute please get in touch with us!**
 
 How can you contribute ?

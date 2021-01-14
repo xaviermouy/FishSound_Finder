@@ -24,7 +24,7 @@ instructions on how to install and run it, as well as a tutorial.
 
 Status
 ------
-FishSound Finder very much a work in progress and is still under heavy development. 
+FishSound Finder is very much a work in progress and is still under heavy development. 
 At this stage, it is recommended to contact the main contributor before using
 FishSound Finder for your projects.
 

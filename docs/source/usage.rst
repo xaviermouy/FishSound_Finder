@@ -29,7 +29,7 @@ Optional arguments
 Example
 -------
 
-The command below runs FishSound Finder on the .wav files located in the ./my_data folder using the metadata in the ./deployment_info.csv file. It will output
+The command below runs FishSound Finder on the .wav files located in the .\my_data folder using the metadata in the .\deployment_info.csv file. It will output
 detection results as netCDF4, Raven, and PAMlab files.   
 
 .. code-block:: console

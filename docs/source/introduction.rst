@@ -18,7 +18,7 @@ can contribute to the source code to improve the performance and add new functio
 What can I use it for?
 ----------------------
 FishSound Finder can be used for many different things. If you are working on fish sounds in a laboratory setting (i.e., tanks), it can make the
-annotation of fish sounds more efficient. If you are working in the natural setting (e.g. lakes, rivers, ocean), it can be used to study fish sound
+annotation of fish sounds more efficient. If you are working in a natural setting (e.g. lakes, rivers, ocean), it can be used to study fish sound
 repertoire, fish occurrence, or biodiversity over several month of data and over several locations. Such large scale studies are just not feasible without the use of 
 automatic detectors. Examples of large scale studies using fish sounds include monitoring of sensitive habitats for marine conservation 
 (e.g. glass sponge reefs off British Columbia, `Archer et al., 2018 <http://www.int-res.com/abstracts/meps/v595/p245-252/>`_) or detection of spawning events for fisheries management 
