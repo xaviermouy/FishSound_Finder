@@ -1,6 +1,8 @@
+
 .. image:: docs/source/_static/fishsound_finder_logo.png
    :scale: 60 %
    :align: center
+
 
 Welcome to FishSound Finder!
 ============================================
@@ -17,6 +19,8 @@ are compatible with the popular bioacoustics software `Raven <https://ravensound
 
 Documentation
 -------------
+The documentation of FishSound Finder can be found here: https://fishsound-finder.readthedocs.io. It includes a description of the software,
+instructions on how to install and run it, as well as a tutorial.
 
 
 Status
@@ -25,7 +29,6 @@ FishSound Finder very much a work in progress and is still under heavy developme
 At this stage, it is recommended to contact the main contributor before using
 FishSound Finder for your projects.
 
-
 Contributors
 ------------
 
@@ -33,6 +36,28 @@ Contributors
 at the University of Victoria (British Columbia, Canada). `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`_ (@ArcherEcology), and 
 `Philina English <https://ecophilina.wordpress.com/>`_ (@ecophilina) provided large passive acoustic and manual annotation datasets for training 
 and testing the fish sound classifier for British Columbia. Emie Woodburn and Courtney Evans also provided manually annotated fish sounds.
+
+Credits
+-------
+
+* The FishSound Finder logo uses the rockfish image from `freepik.com <https://www.freepik.com/free-icon/rockfish-shape_718051.htm#page=1&query=rockfish%20shape&position=0>`_
+
+* This project was initiated in the `Juanes Lab <https://juaneslab.weebly.com/>`_ at the University of Victoria (British Columbia, Canada) and received funding from the `Canadian Healthy Oceans Network <https://chone2.ca/>`_ and `Fisheries and Oceans Canada - Pacific Region <https://www.dfo-mpo.gc.ca/contact/regions/pacific-pacifique-eng.html#Nanaimo-Lab>`_. 
+
+.. image:: docs/source/_static/juanes_logo.jpg
+
+
+.. image:: docs/source/_static/UVicLogo.jpg
+   :scale: 50 %
+
+
+.. image:: docs/source/_static/DFO_logo.png
+   :scale: 70 %
+
+
+.. image:: docs/source/_static/chone_logo.png
+   :scale: 70 %
+
 
 License
 -------
