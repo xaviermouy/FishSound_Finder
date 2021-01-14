@@ -32,12 +32,12 @@ def cli_args():
 
     """
     # parsing of the input arguments
-    parser = argparse.ArgumentParser(prog='fish-sound-detector',
+    parser = argparse.ArgumentParser(prog='fishsound_finder',
                                      description='Run the fish sound detector',
                                      epilog="To load input arguments from a "
                                      "file, use @ followed by the path of the"
                                      " text file containing all arguments (e.g"
-                                     ". python fish-sound-detector.py "
+                                     ". python fishsound_finder.py "
                                      "@args_file_example.txt)",
                                      fromfile_prefix_chars='@',
                                      )
@@ -81,7 +81,7 @@ def cli_args():
                         " format")
     parser.add_argument("-r", "--raven",
                         action="store_true",
-                        default=True,
+                        default=False,
                         help="also outputs results in the RAVEN annotation"
                         " format")
     return parser
@@ -245,6 +245,23 @@ def run_detector(infile, outdir, classif_model, config, deployment_file=None, ex
         # Add metadata
         if deployment_file:
             measurements.insert_metadata(deployment_file)
+        else:
+            measurements.insert_values(audio_channel=0,
+                                       UTC_offset=0,
+                                       audio_sampling_frequency=0,
+                                       audio_bit_depth=0,
+                                       mooring_platform_name='',
+                                       recorder_type='',
+                                       recorder_SN='',
+                                       hydrophone_model='',
+                                       hydrophone_SN='',
+                                       hydrophone_depth=0,
+                                       location_name='',
+                                       location_lat=0,
+                                       location_lon=0,
+                                       location_water_depth=0,
+                                       deployment_ID='',
+                                       )
 
         # Add file informations
         file_name = os.path.splitext(os.path.basename(infile))[0]

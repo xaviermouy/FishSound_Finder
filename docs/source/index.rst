@@ -23,8 +23,7 @@ are compatible with the popular bioacoustics software `Raven <https://ravensound
    FishSound Finder <introduction.rst>
    Installation <installation.rst>
    Usage <usage.rst>
-   Post-processing <postprocessing.rst>
-   Example <example.rst>
+   Tutorial <example.rst>
    Contributing <contributing.rst>
    Credits <credits.rst>
    	
@@ -36,9 +35,11 @@ FishSound Finder for your projects.
 
 Contributors
 ------------
-`Xavier Mouy <https://xaviermouy.weebly.com/>`_ (@XavierMouy) leads this project. `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`_ 
-(@ArcherEcology), `Philina English <https://ecophilina.wordpress.com/>`_ (@ecophilina), Emie Woodburn, and Courtney Evans have provided manually 
-annotated fish sounds for training and testing the machine learning models for British Columbia.
+
+`Xavier Mouy <https://xaviermouy.weebly.com/>`_ (@XavierMouy) leads this project as part of his PhD in the `Juanes Lab <https://juaneslab.weebly.com/>`_ 
+at the University of Victoria (British Columbia, Canada). `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`_ (@ArcherEcology), and 
+`Philina English <https://ecophilina.wordpress.com/>`_ (@ecophilina) provided large passive acoustic and manual annotation datasets for training 
+and testing the fish sound classifier for British Columbia. Emie Woodburn and Courtney Evans also provided manually annotated fish sounds.
 
 License
 -------

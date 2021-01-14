@@ -53,7 +53,7 @@ A peer-reviewed scientific publication fully describing the approach and perform
 Who can use it?
 --------------------
 Anyone interested in studying the underwater sounds and marine ecology can use FishSound Finder. No programming knowledge are required to run it. Reading the
-:ref:`example section<examples>` of this documentation should be enough to get you started. FishSound Finder is also compatible with standard bioacoustic analysis tools such as
+:ref:`tutorial section<tutorial>` of this documentation should be enough to get you started. FishSound Finder is also compatible with standard bioacoustic analysis tools such as
 Raven (Cornell University) and Pamlab (JASCO Applied Sciences). More advanced users/developers can also look at the source code to better understand it and modify
 it as they need. 
 
@@ -67,7 +67,7 @@ Contributors
 ------------
 
 `Xavier Mouy <https://xaviermouy.weebly.com/>`_ (@XavierMouy) leads this project as part of his PhD in the `Juanes Lab <https://juaneslab.weebly.com/>`_ 
-at the University of Victoria (British Columbia, Canada). `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`_ (@ArcherEcology), 
-`Philina English <https://ecophilina.wordpress.com/>`_ (@ecophilina), Emie Woodburn, and Courtney Evans have provided manually annotated 
-fish sounds for training and testing the machine learning models for British Columbia.
+at the University of Victoria (British Columbia, Canada). `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`_ (@ArcherEcology), and 
+`Philina English <https://ecophilina.wordpress.com/>`_ (@ecophilina) provided large passive acoustic and manual annotation datasets for training 
+and testing the fish sound classifier for British Columbia. Emie Woodburn and Courtney Evans also provided manually annotated fish sounds. 
 

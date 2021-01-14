@@ -34,7 +34,9 @@ If you are not very familiar with python and don't have python already installed
 	
 	    $ pip install fishsound_finder
 
-
+	It will download and install FishSound Finder along with all its dependencies. It may take a few minutes to complete.
+	
+	
 4. **Test that FishSound Finder installed correctly:**
 
 	In the same terminal window type:
@@ -48,8 +50,6 @@ If you are not very familiar with python and don't have python already installed
 	
 	.. code-block:: console	
 	    
-		$ fishsound_finder
-		
 		usage: fishsound_finder [-h] [-d DEPLOYMENT_FILE] [-e EXTENSION] [-f] [-p]
 								   [-r]
 								   input output cfgfile model
