@@ -1,0 +1,2 @@
+audio_channel_number,UTC_offset,sampling_frequency,bit_depth,mooring_platform_name,recorder_type,recorder_SN,hydrophone_model,hydrophone_SN,hydrophone_depth,location_name,location_lat,location_lon,location_water_depth,deployment_ID,deployment_date,recovery_date
+4,-7,32000,24,XAV-array,AMAR-G3,173,M36,E000141,7.70,Hornby-Island,49.48845,-124.655217,8,07-HI,20190915T182605,20190922T200509

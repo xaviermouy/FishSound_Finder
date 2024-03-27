@@ -25,7 +25,7 @@ setup(
     name="fishsound_finder", # Replace with your own username
     version=__version__,
 	author="Xavier Mouy",
-    author_email="xaviermouy@uvic.ca",
+    author_email="xaviermouy@outlook.com",
     description="Python software to automatically detect fish sounds in passive acoustic recordings",
     long_description=readme + '\n\n' + history,
     long_description_content_type="text/x-rst",
@@ -36,7 +36,6 @@ setup(
     #package_data={"/resources": ["/resources/67674121.181017060806.wav","/resources/config.yaml","/resources/deployment_info.csv","/resources/RF50_model.sav"], "": ["README.md","LICENSE"]},
     install_requires=requirements,
 	setup_requires=setup_requirements,
-    #entry_points={'console_scripts': ['fishsound_finder=fish-sound-detector:main',]},    
     entry_points='''
         [console_scripts]
         fishsound_finder=fishsound_finder.detector:main
@@ -45,11 +44,11 @@ setup(
 	classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.9",
         "License :: OSI Approved :: BSD License", 
         "Operating System :: OS Independent",
         "Natural Language :: English",
     ],
-    python_requires='>=3.7.0',
+    python_requires='>=3.9.0, <3.10.0',
 	zip_safe=False,
 )

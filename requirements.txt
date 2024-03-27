@@ -1,1 +1,3 @@
-ecosound=0.0.8
+ketos==2.6.2
+ecosound==0.0.25
+silence_tensorflow

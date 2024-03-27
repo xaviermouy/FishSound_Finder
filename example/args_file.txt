@@ -1,9 +1,0 @@
-.\data
-.\results
-.\model\config.yaml
-.\model\RF50_model_20201208T223420.sav
--d.\data\deployment_info.csv
--e.wav
--f
--r
--p
