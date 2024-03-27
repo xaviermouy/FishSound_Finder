@@ -40,9 +40,6 @@ The command below runs FishSound Finder on the .wav files located in the .\data 
 
 .. code-block:: console
 
-   $ fishsound_finder --audio_folder=".\data"  --output_folder=".\results" --model_file=".\models\FishNet_model_BC202403.kt" --deployment_file=".\data\deployment_info.csv" 
-
-
-It is also possible to have all the input arguments in a separate text file and run FishSound Finder using the @ command.
+   $ fishsound_finder --audio_folder=".\data"  --output_folder=".\results" --model_file=".\models\FishNet_model_BC202403.kt" --threshold=0.995 --deployment_file=".\data\deployment_info.csv" 
 
 For a more detailed example, see the :ref:`Tutorial<tutorial>` section.
