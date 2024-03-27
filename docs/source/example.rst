@@ -144,7 +144,7 @@ Now all the data and configuration files are set up and we can run FishSound Fin
   .. image:: _static/results.png
      :scale: 70 %
    
-  Here we only used a single audio file, but note that FishSound Finder will process all audio files located in the data folder. Also note that if the processing is interupted, you can rerun FishSOund Finder uisng the same arguments and it will start the processing where it left off (i.e. without reprocessing the files already analized).
+  Here we only used a single audio file, but note that FishSound Finder will process all audio files located in the data folder. Also note that if the processing is interupted, you can rerun FishSound Finder uisng the same arguments and it will start the processing where it left off (i.e. without reprocessing the files already analized).
    
 
 Reviewing the processing logs
@@ -159,7 +159,6 @@ Two log files are automatically created in the *results* folder:
 
 Analyzing the detection results (documentation in progress)
 -------------------------------
-
 Detection results from FishSound Finder can be analyzed using the bioacoustics software Raven or
 libraries such as the ecosound. With the example of the generic fish detector all detections are 
 saved in the output files and are labelled as **FS** (for a Fish Sound). Each detections has
