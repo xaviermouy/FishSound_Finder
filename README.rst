@@ -24,22 +24,22 @@ instructions on how to install and run it, as well as a tutorial.
 Contributors
 ------------
 
-Lead developper:\n
-`Xavier Mouy <https://xaviermouy.weebly.com/>`_
+Lead developper:
+* `Xavier Mouy <https://xaviermouy.weebly.com/>`_
 
 Collaborators:
-Dana Haggarty
-Francis Juanes
-`Stephanie Archer <https://lumcon.edu/stephanie-archer/>`_
-`Philina English <https://ecophilina.wordpress.com/>`_
-Sarah Dudas
-Darienne Lancaster
+* Dana Haggarty
+* Francis Juanes
+* `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`_
+* `Philina English <https://ecophilina.wordpress.com/>`_
+* Sarah Dudas
+* Darienne Lancaster
 
 Analysts who provided manual annotations to train the model:
-Cierra Hart
-Courtney Evans
-Emie Woodburn
-Erik Archer 
+* Cierra Hart
+* Courtney Evans
+* Emie Woodburn
+* Erik Archer 
 
 Credits
 -------
