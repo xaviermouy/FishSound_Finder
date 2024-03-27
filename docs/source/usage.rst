@@ -1,50 +1,48 @@
 Using FishSound Finder
 ======================
 
-FishSound Finder can be used using its command line interface. It requires 4 positional arguments and 6 optional arguments. The detection results are written as
-netCDF4 (.nc) files with the option to also output Raven and Pamlab annotations tables.
+FishSound Finder can be used using its command line interface. It requires 4 required arguments and 12 optional arguments. The detection results are written as
+netCDF4 (.nc) files and Raven annotations tables (.txt).
 
-Positional arguments
+Required arguments
 --------------------
 
-1. Path of the input file or directory to process.
-2. Path of the output directory where the results will be written.
-3. Path of the configuration (.yaml) file indicating all the parameters needed for the detector and classifier.
-4. Path of the classification model (.sav file) to use.
+* **--audio_folder**:    Path of the input file or directory to process. 
+* **--output_folder**:   Path of the output directory where the results will be written. 
+* **--model_file**:      Path of the classification model file to use (.kt).  
+* **--threshold**:       Minimum classification score accepted (from 0 to 1).
 
-Both the configuration .yaml file and the .sav model file are provided for each detector on FishSound Finder's `GitHub page <https://github.com/xaviermouy/FishSound_Finder/tree/master/models/>`__. 
-For the fish detection in British Columbia the configuration and model files are located `here <https://github.com/xaviermouy/FishSound_Finder/tree/master/models/british-columbia_generic_config>`__.
+The .kt model files are provided for each detector on FishSound Finder's `GitHub page <https://github.com/xaviermouy/FishSound_Finder/tree/master/models/>`__. 
 
 Optional arguments
 ------------------
 
-* **-h**:                   Shows the help message and exits.
-* **-d <DEPLOYMENT_FILE>**: Path of the deployment file. The deployment file is in the csv format and contains metadata about the deployment being analyzed. It can be created using the ecosound function ecosound.metadata.write_template, or by modifying the deployment file example located on GitHub `here <https://github.com/xaviermouy/FishSound_Finder/blob/master/example/deployment_info.csv>`_. While using a deployment	file is optional, it is highly recommended to use one, as it embeds all the metadata in the detection results which can facilitate the analysis of the results.
-* **-e <EXTENSION>**:       Extension of the sound files to process. The default is '.wav'.
-* **-f**:                   Forces the reprocessing of recordings whose netcdf files already exist in the output directory. If this option is not set, files already processed will be skipped.
-* **-r**:                   Outputs detection results as Raven tables (.txt files) in addition to the netcdf files.
-* **-p**:                   Outputs detection results as PAMlab tables (.log files) in addition to the netcdf files.
+* **--help**:               Show this help message and exit
+* **--channel**:            Audio channel to use. Default is 1.
+* **--extension**:          Extension of audio files to process. Default is ".wav".
+* **--batch_size**:         The number of segments to hold in memory at one time. Default is 512. Increase to speed up the processing. Decrease in case of memory errors.
+* **--step_sec**:           Step size (in seconds) used for the sliding window. Default is 0.05.
+* **--smooth_sec**:         Length of score averaging window (in seconds). Default is 0.
+* **--min_dur_sec**:        Minimum duration allowed for detections (in seconds). Default is None
+* **--max_dur_sec**:        Maximum duration allowed for detections(in seconds). Default is None.
+* **--class_id**:           Class ID to use. Default is 1.
+* **--tmp_dir**:            Path of temporary folder for the model and audio data. Default: created tmp folder in the output directory
+* **--deployment_file**:    Path of the deployment file. The deployment file is in the csv format and contains metadata about the deployment being analyzed. It can be created using the ecosound function ecosound.metadata.write_template, or by modifying the deployment file example located on GitHub `here <https://raw.githubusercontent.com/xaviermouy/FishSound_Finder/master/data/deployment_info.csv>`__. While using a deployment file is optional, it is highly recommended to use one, as it embeds all the metadata in the detection results which can facilitate the analysis of the results.
+deployment_info.csv with metadata.
+* **--deployment_id**:      Identification of the deployment being processed (for book keeping).
+* **--recursive**:          Process files from all folders and sub-folders. Default is False. (default: False)
 
 
 Example
 -------
 
-The command below runs FishSound Finder on the .wav files located in the .\my_data folder using the metadata in the .\deployment_info.csv file. It will output
-detection results as netCDF4, Raven, and PAMlab files.   
+The command below runs FishSound Finder on the .wav files located in the .\data folder using the metadata in the .\data\deployment_info.csv file. Results are written in the .\results folder. 
 
 .. code-block:: console
 
-   $ fishsound_finder ".\my_data" ".\my_outputs" ".\config.yaml" ".\RF50_model_20201208T223420.sav" -d"./deployment_info.csv" -e".wav" -f -r -p
+   $ fishsound_finder --audio_folder=".\data"  --output_folder=".\results" --model_file=".\models\FishNet_model_BC202403.kt" --deployment_file=".\data\deployment_info.csv" 
 
 
 It is also possible to have all the input arguments in a separate text file and run FishSound Finder using the @ command.
-
-
-.. code-block:: console
-
-   $ fishsound_finder @argument_file.txt
-
-
-In this case, the text file 'argument_file.txt' contains one input argument per line (see example `here <https://github.com/xaviermouy/FishSound_Finder/blob/master/example/args_file_example.txt>`__). 
 
 For a more detailed example, see the :ref:`Tutorial<tutorial>` section.

@@ -65,7 +65,7 @@ If you are not very familiar with python and don't have python already installed
 
 
 		optional arguments:
-		  -h, --help                           show this help message and exit
+		  -h, --help                           Show this help message and exit
 		  --channel CHANNEL                    Audio channel to use. Default is 1.
 		  --extension EXTENSION                Extension of audio files to process. Default is ".wav".
 		  --batch_size BATCH_SIZE              The number of segments to hold in memory at one time. Default is 512. Decrease in case of memory errors.
@@ -75,7 +75,7 @@ If you are not very familiar with python and don't have python already installed
 		  --max_dur_sec MAX_DUR_SEC            Maximum duration allowed for detections(in seconds). Default is None.
 		  --class_id CLASS_ID                  Class ID to use. Default is 1.
 		  --tmp_dir TMP_DIR                    Path of temporary folder for the model and audio data. Default: created tmp folder in the output directory
-		  --deployment_file DEPLOYMENT_FILE	   deployment_info.csv with metadata.
+		  --deployment_file DEPLOYMENT_FILE    deployment_info.csv with metadata.
 		  --deployment_id DEPLOYMENT_ID        Identification of the deployment being processed (for book keeping).
 		  --recursive, --no-recursive          Process files from all folders and sub-folders. Default is False. (default: False)
 
