@@ -29,7 +29,7 @@ are compatible with the popular bioacoustics software `Raven <https://ravensound
    	
 Status
 ------
-FishSound Finder is very much a work in progress and is still under heavy development. 
+FishSound Finder is a work in progress and is still under heavy development. 
 At this stage, it is recommended to contact the main contributor before using
 FishSound Finder for your projects.
 
