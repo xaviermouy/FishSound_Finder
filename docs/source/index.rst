@@ -8,8 +8,8 @@ Welcome to FishSound Finder!
 
 **FishSound Finder** is an open source python software to automatically detect and classify fish sounds in 
 passive acoustic recordings. It is based on the python libraries `ecosound <https://ecosound.readthedocs.io/en/latest/>`_ and 
-`ketos <https://docs.meridian.cs.dal.ca/ketos/>`_. FishSound Finder was trained to detect typical low frequency (< 1kHz) grunts and knocks produced by fish.
-Note that it detects isolated fish sounds and does not target the long continuous sounds produced dduring fish choruses. Future versions will also include the capability to detect sounds from specific fish species (e.g. haddock).
+`ketos <https://docs.meridian.cs.dal.ca/ketos/>`_. FishSound Finder was trained to detect typical low frequency (< 1kHz) isolated grunts and knocks produced by fish. 
+Future versions will also include the capability to detect sounds from specific fish species (e.g. haddock).
 It was originally developed to analyze fish sounds found in coastal British Columbia (Canada) but proved to also work well in other parts of the world (e.g. Florida, USA).
 Detection outputs from FishSound Finder are compatible with the popular bioacoustics software `Raven <https://ravensoundsoftware.com/>`_.
 
