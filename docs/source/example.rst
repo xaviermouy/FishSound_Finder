@@ -157,7 +157,7 @@ Two log files are automatically created in the *results* folder:
 * **full_log.txt**: Lists all the information displayed during the processing (including processing times and warning messages).
 
 
-Analyzing the detection results
+Analyzing the detection results (documentation in progress)
 -------------------------------
 
 Detection results from FishSound Finder can be analyzed using the bioacoustics software Raven or
@@ -177,11 +177,7 @@ To visualize the detection results in Raven:
   from the *results* folder.
 * Detection boxes should automatically appear. Notice the confidence value in the selection table. 
 
-.. image:: _static/raven_with_detections.png
-   :scale: 70 %
-
-
-With ecosound (documentation in progress)
+With ecosound 
 *************
 
 Here are some code snippets that can be used to analyze the detection results with ecosound. While ecosound can import
