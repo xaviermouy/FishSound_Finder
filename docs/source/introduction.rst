@@ -38,10 +38,8 @@ How does it work?
 FishSound Finder uses signal processing and deep learning techniques. The process is as follows.
  
 1. The spectrogram of the sound recording is computed. 
-2. A median filter is applied to each row (frequency band) of the spectrogram to remove tonal sounds and increase the signal-to-noise ratio of acoustic transients.
-3. A deep convolutional neural network (ResNet18) is then analysing consecutive sections of the spectrogram (typically 0.2 s at a time) to calculate the probability 
-that a fish sound is present. Sections of the spectrogram that have a probability greater than the user-defined threshold will be defined as "detections". The ResNet model
-was trained on about 20,000 manually annotated fish and non-fish sounds collected at 7 different locations is the Strait of Georgia (British Columbia) by different model of recorders (AMAR, SoundTrap, IcListen).
+2. A median filter is applied to each row (frequency band) of the spectrogram to remove tonal sounds and increase the signal-to-noise ratio of acoustic transients. 
+3. A deep convolutional neural network (ResNet18) is then analysing consecutive sections of the spectrogram (typically 0.2 s at a time) to calculate the probability that a fish sound is present. Sections of the spectrogram that have a probability greater than the user-defined threshold will be defined as "detections". The ResNet model was trained on about 20,000 manually annotated fish and non-fish sounds collected at 7 different locations is the Strait of Georgia (British Columbia) by different model of recorders (AMAR, SoundTrap, IcListen). 
 
 A peer-reviewed scientific publication fully describing the approach and performance results is in the works and will be published in the near future.
 
