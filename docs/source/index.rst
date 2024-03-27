@@ -7,12 +7,11 @@ Welcome to FishSound Finder!
 ============================================
 
 **FishSound Finder** is an open source python software to automatically detect and classify fish sounds in 
-passive acoustic recordings. It is based on the high-level python library `Ecosound <https://ecosound.readthedocs.io/en/latest/>`__.
-Currently, FishSound Finder is specifically configured to detect fish sounds recorded in coastal British Columbia, Canada, but
-future versions will also include detectors for specific fish species and other parts of the world 
-(e.g. `haddock sounds in the North Atlantic <https://asa.scitation.org/doi/10.1121/2.0001257>`__). Detection outputs from FishSound Finder
-are compatible with the popular bioacoustics software `Raven <https://ravensoundsoftware.com/>`__ and 
-`PAMlab <https://static1.squarespace.com/static/52aa2773e4b0f29916f46675/t/5be5b07088251b9f59268184/1541779574284/PAMlab+Brochure.pdf>`__.
+passive acoustic recordings. It is based on the python libraries `ecosound <https://ecosound.readthedocs.io/en/latest/>`_ and 
+`ketos <https://docs.meridian.cs.dal.ca/ketos/>`_. FishSound Finder was trained to detect typical low frequency (< 1kHz) grunts and knocks produced by fish.
+Note that it detects isolated fish sounds and does not target the long continuous sounds produced dduring fish choruses. Future versions will also include the capability to detect sounds from specific fish species (e.g. haddock).
+It was originally developed to analyze fish sounds found in coastal British Columbia (Canada) but proved to also work well in other parts of the world (e.g. Florida, USA).
+Detection outputs from FishSound Finder are compatible with the popular bioacoustics software `Raven <https://ravensoundsoftware.com/>`_.
 
 .. image:: _static/detection_example.png
 
@@ -29,17 +28,41 @@ are compatible with the popular bioacoustics software `Raven <https://ravensound
    	
 Status
 ------
-FishSound Finder is a work in progress and is still under heavy development. 
-At this stage, it is recommended to contact the main contributor before using
-FishSound Finder for your projects.
+FishSound Finder has been tested on a number of different environments and is considered stable. We are keen to keep improving FishSound Finder and 
+encourage users to get in touch with us to provide feedback and report issues/bugs.
 
 Contributors
 ------------
 
-`Xavier Mouy <https://xaviermouy.weebly.com/>`__ (@XavierMouy) leads this project as part of his PhD in the `Juanes Lab <https://juaneslab.weebly.com/>`__ 
-at the University of Victoria (British Columbia, Canada). `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`__ (@ArcherEcology), and 
-`Philina English <https://ecophilina.wordpress.com/>`_ (@ecophilina) provided large passive acoustic and manual annotation datasets for training 
-and testing the fish sound classifier for British Columbia. Emie Woodburn and Courtney Evans also provided manually annotated fish sounds.
+Lead developper:
+
+* `Xavier Mouy <https://xaviermouy.weebly.com/>`__
+
+Collaborators:
+
+* 'Dana Haggarty <https://profils-profiles.science.gc.ca/en/profile/dana-haggarty-phd-msc>'__
+
+* 'Francis Juanes <https://juaneslab.weebly.com/>'__
+
+* `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`__
+
+* `Philina English <https://ecophilina.wordpress.com/>`__
+
+* 'Sarah Dudas <https://sogdatacentre.ca/people/researchers/sarah-dudas/>'__
+
+* 'Darienne Lancaster <https://www.researchgate.net/scientific-contributions/Darienne-Lancaster-2163078290>'__
+
+
+Analysts :
+
+
+* Cierra Hart
+
+* Courtney Evans
+
+* Emie Woodburn
+
+* Erik Archer 
 
 License
 -------

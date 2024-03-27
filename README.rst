@@ -7,10 +7,11 @@ Welcome to FishSound Finder!
 ============================================
 
 **FishSound Finder** is an open source python software to automatically detect and classify fish sounds in 
-passive acoustic recordings. It is based on the python libraries `ecosound <https://ecosound.readthedocs.io/en/latest/>`_ and `ketos <https://docs.meridian.cs.dal.ca/ketos/>`_.
-FishSound Finder was trained to detect isolated grunts and knocks produced by fish (not choruses). It was originally developed to analyze fish sounds from British Columbia (Canada) but proved to work well also in other parts of the world (e.g. Florida, USA).
-Future versions will also include detectors for specific fish species (e.g. haddock). Detection outputs from FishSound Finder
-are compatible with the popular bioacoustics software `Raven <https://ravensoundsoftware.com/>`_.
+passive acoustic recordings. It is based on the python libraries `ecosound <https://ecosound.readthedocs.io/en/latest/>`_ and 
+`ketos <https://docs.meridian.cs.dal.ca/ketos/>`_. FishSound Finder was trained to detect typical low frequency (< 1kHz) grunts and knocks produced by fish.
+Note that it detects isolated fish sounds and does not target the long continuous sounds produced dduring fish choruses. Future versions will also include the capability to detect sounds from specific fish species (e.g. haddock).
+It was originally developed to analyze fish sounds found in coastal British Columbia (Canada) but proved to also work well in other parts of the world (e.g. Florida, USA).
+Detection outputs from FishSound Finder are compatible with the popular bioacoustics software `Raven <https://ravensoundsoftware.com/>`_.
 
 .. image:: docs/source/_static/detection_example.png
 
@@ -20,27 +21,31 @@ Documentation
 The documentation of FishSound Finder can be found here: https://fishsound-finder.readthedocs.io. It includes a description of the software,
 instructions on how to install and run it, as well as a tutorial.
 
+Status
+------
+FishSound Finder has been tested on a number of different environments and is considered stable. We are keen to keep improving FishSound Finder and 
+encourage users to get in touch with us to provide feedback and report issues/bugs.
 
 Contributors
 ------------
 
 Lead developper:
 
-* `Xavier Mouy <https://xaviermouy.weebly.com/>`_
+* `Xavier Mouy <https://xaviermouy.weebly.com/>`__
 
 Collaborators:
 
-* Dana Haggarty
+* 'Dana Haggarty <https://profils-profiles.science.gc.ca/en/profile/dana-haggarty-phd-msc>'__
 
-* Francis Juanes
+* 'Francis Juanes <https://juaneslab.weebly.com/>'__
 
-* `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`_
+* `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`__
 
-* `Philina English <https://ecophilina.wordpress.com/>`_
+* `Philina English <https://ecophilina.wordpress.com/>`__
 
-* Sarah Dudas
+* 'Sarah Dudas <https://sogdatacentre.ca/people/researchers/sarah-dudas/>'__
 
-* Darienne Lancaster
+* 'Darienne Lancaster <https://www.researchgate.net/scientific-contributions/Darienne-Lancaster-2163078290>'__
 
 
 Analysts :
