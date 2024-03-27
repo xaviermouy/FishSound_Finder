@@ -4,7 +4,7 @@ Installing FishSound Finder
 Short version
 -------------
 
-FishSound Finder can be installed from `PyPI <https://pypi.org/project/echopype/>`_:
+FishSound Finder can be installed from 'PyPI <https://pypi.org/project/echopype/>'__:
 
 .. code-block:: console
 
@@ -19,16 +19,16 @@ If you are not very familiar with python and don't have python already installed
 1. **Install Anaconda:**
 
 	The easiest way to install python on your machine is to use Anaconda. It is an easy-to-install package manager, environment manager, and Python distribution that will make your
-	life much easier. To install Anaconda follow the instructions on their website `here <https://docs.anaconda.com/anaconda/install/>`_.
+	life much easier. To install Anaconda follow the instructions on their website 'here <https://docs.anaconda.com/anaconda/install/>'__.
 
 2. **Create a new virtual environment:**
 
-	a. Open Anaconda Navigator (see `instructions <https://docs.anaconda.com/anaconda/navigator/getting-started>`_)	
-	b. Create a new virtual environment with Python 3.7 (see `instructions <https://docs.anaconda.com/anaconda/navigator/getting-started/#managing-environments>`_)
+	a. Open Anaconda Navigator (see 'instructions <https://docs.anaconda.com/anaconda/navigator/getting-started>'__)	
+	b. Create a new virtual environment with Python 3.7 (see 'instructions <https://docs.anaconda.com/anaconda/navigator/getting-started/#managing-environments>'__)
 
 3. **Install FishSound Finder:**
 
-	Open a terminal window in the virtual environment (see `here <https://i0.wp.com/mikelynchgames.com/wp-content/uploads/2019/01/anacondaterminallaunch.png>`_) and type:
+	Open a terminal window in the virtual environment (see 'here <https://i0.wp.com/mikelynchgames.com/wp-content/uploads/2019/01/anacondaterminallaunch.png>'__) and type:
 	
 	.. code-block:: console		
 	

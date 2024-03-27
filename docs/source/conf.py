@@ -18,12 +18,12 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 
 project = 'FishSound Finder'
-copyright = '2021, Xavier Mouy'
+copyright = '2024, Xavier Mouy'
 author = 'Xavier Mouy'
 language = 'en'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = '0.1.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -32,6 +32,8 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.autosectionlabel']
+autosectionlabel_prefix_document = True
+#,'recommonmark'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

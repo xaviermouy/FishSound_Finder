@@ -1,3 +1,5 @@
+.. _tutorial:
+
 Tutorial
 ========
 
@@ -84,7 +86,7 @@ Running FishSound Finder
 Now all the data and configuration files are set up and we can run FishSound Finder. It is here assumed that you are using Anaconda on a Windows machine.
 
 * Open Anaconda Navigator
-* Under the *Environments* tab on the left, select the python environment in which you installed FishSound Finder (see :ref:`Installation<Installing FishSound Finder>`Installation section),
+* Under the *Environments* tab on the left, select the python environment in which you installed FishSound Finder (see :ref:'Installation<Installing FishSound Finder>'Installation section),
   and start a Terminal. 
   
   .. image:: _static/open_terminal.png
@@ -155,7 +157,7 @@ Now all the data and configuration files are set up and we can run FishSound Fin
    
 
 Reviewing the processing logs
--------------------------
+------------------------------
 
 It is important to review the processing logs once FishSound Finder has finished running to ensure there was no errors.
 Two log files are automatically created in the *results* folder:

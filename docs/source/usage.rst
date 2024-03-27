@@ -12,8 +12,8 @@ Positional arguments
 3. Path of the configuration (.yaml) file indicating all the parameters needed for the detector and classifier.
 4. Path of the classification model (.sav file) to use.
 
-Both the configuration .yaml file and the .sav model file are provided for each detector on FishSound Finder's `GitHub page <https://github.com/xaviermouy/FishSound_Finder/tree/master/models/>`_. 
-For the fish detection in British Columbia the configuration and model files are located `here <https://github.com/xaviermouy/FishSound_Finder/tree/master/models/british-columbia_generic_config>`_.
+Both the configuration .yaml file and the .sav model file are provided for each detector on FishSound Finder's `GitHub page <https://github.com/xaviermouy/FishSound_Finder/tree/master/models/>`__. 
+For the fish detection in British Columbia the configuration and model files are located `here <https://github.com/xaviermouy/FishSound_Finder/tree/master/models/british-columbia_generic_config>`__.
 
 Optional arguments
 ------------------
@@ -45,6 +45,6 @@ It is also possible to have all the input arguments in a separate text file and 
    $ fishsound_finder @argument_file.txt
 
 
-In this case, the text file 'argument_file.txt' contains one input argument per line (see example `here <https://github.com/xaviermouy/FishSound_Finder/blob/master/example/args_file_example.txt>`_). 
+In this case, the text file 'argument_file.txt' contains one input argument per line (see example `here <https://github.com/xaviermouy/FishSound_Finder/blob/master/example/args_file_example.txt>`__). 
 
 For a more detailed example, see the :ref:`Tutorial<tutorial>` section.
