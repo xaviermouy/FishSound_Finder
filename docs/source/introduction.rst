@@ -26,27 +26,22 @@ automatic detectors. Examples of large scale studies using fish sounds include m
 
 Does it work in all environments?
 ---------------------------------
-Unfortunately, no. Fish produce different types of sounds in different part of the world, and underwater noise conditions are not the same everywhere. 
-This all influences what type of signal the detector will target and how well it will perform. Currently, FishSound Finder has been developed for
-detecting fish grunts and knocks off the coast of British Columbia. It could still potentially be used in other parts of the world that have similar fish species
-and noise conditions like for example the West coast of the United States. It is anticipated that in the future, FishSound Finder will have the option to
-detect species-specific sounds in other parts of the world. Most likely candidates are haddock sounds in the Northwest Atlantic 
+It was initially developped to detect fish sounds from the Northeast Pacific but was also succesfully tested in other parts of the world (e.g. Florida, USA).
+Using FishSound Finder outside of the Northeast Pacific will typically require to use lower confidence thresholds. It is anticipated that in the future, FishSound Finder will have the option to
+detect species-specific sounds. Most likely candidates are haddock sounds in the Northwest Atlantic 
 (`Mouy et al. 2018 <https://asa.scitation.org/doi/10.1121/1.5036179>`__), and lingcod sounds off British Columbia 
 (`Mouy et al., 2019 <https://asa.scitation.org/doi/10.1121/1.5136904>`__). 
 
 How does it work?
 -----------------
 
-FishSound Finder uses signal processing and machine learning techniques. For detecting fish sounds off the coast of British Columbia, the process is as follow.
+FishSound Finder uses signal processing and deep learning techniques. The process is as follows.
  
 1. The spectrogram of the sound recording is computed. 
 2. A median filter is applied to each row (frequency band) of the spectrogram to remove tonal sounds and increase the signal-to-noise ratio of acoustic transients.
-3. A blob detector based on a local measure of variance is used to define the time and frequency boundaries of acoustic transients in the spectrogram.
-4. A set of features representing the distribution of the energy in time and frequency for each transient is calculated. 
-5. A Random classifier uses these features to define if the transient is a fish sound or noise. The random forest model was trained using ~50,000 manually annotated
-   fish and noise sounds collected  over several years and at different locations around Vancouver Island, BC.
-
-.. image:: _static/processing_steps_BC.png
+3. A deep convolutional neural network (ResNet18) is then analysing consecutive sections of the spectrogram (typically 0.2 s at a time) to calculate the probability 
+that a fish sound is present. Sections of the spectrogram that have a probability greater than the user-defined threshold will be defined as "detections". The ResNet model
+was trained on about 20,000 manually annotated fish and non-fish sounds collected at 7 different locations is the Strait of Georgia (British Columbia) by different model of recorders (AMAR, SoundTrap, IcListen).
 
 A peer-reviewed scientific publication fully describing the approach and performance results is in the works and will be published in the near future.
 
@@ -54,20 +49,17 @@ Who can use it?
 --------------------
 Anyone interested in studying the underwater sounds and marine ecology can use FishSound Finder. No programming knowledge are required to run it. Reading the
 :ref:`tutorial section<Tutorial>` of this documentation should be enough to get you started. FishSound Finder is also compatible with standard bioacoustic analysis tools such as
-Raven (Cornell University) and Pamlab (JASCO Applied Sciences). More advanced users/developers can also look at the source code to better understand it and modify
+Raven (Cornell University). More advanced users/developers can also look at the source code to better understand it and modify
 it as they need. 
 
 Requirements
 ------------
-FishSound Finder requires to have Python 3.7 installed on your machine(s). It is based on the high-level python library 
-`ecosound <https://ecosound.readthedocs.io/en/latest/>`__, which itself is built on top of lower-level python libraries such as Numpy, scikits-learn, dask,
+FishSound Finder requires to have Python 3.9 installed on your machine(s). It is based on the high-level python library 
+`ecosound <https://ecosound.readthedocs.io/en/latest/>`__ and `ketos <https://docs.meridian.cs.dal.ca/ketos/>`_ which themselves are built on top of lower-level python libraries such as numpy, scipy, dask, tensorflow,
 pandas and Xarray.
 
 Contributors
 ------------
 
-`Xavier Mouy <https://xaviermouy.weebly.com/>`__ (@XavierMouy) leads this project as part of his PhD in the `Juanes Lab <https://juaneslab.weebly.com/>`__ 
-at the University of Victoria (British Columbia, Canada). `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`__ (@ArcherEcology), and 
-`Philina English <https://ecophilina.wordpress.com/>`__ (@ecophilina) provided large passive acoustic and manual annotation datasets for training 
-and testing the fish sound classifier for British Columbia. Emie Woodburn and Courtney Evans also provided manually annotated fish sounds. 
-
+Xavier Mouy leads this project in collaboration with Dana Haggarty (DFO), Francis Juanes (UVic), Stephanie Archer (LUMCON), Philina English (DFO), Sarah Dudas (DFO) and Darienne Lancaster (UVIC).
+Aislyn Adams, Cierra Hart, Courtney Evans, Emie Woodburn, and Erik Archer also provided manually annotated fish sounds. 
