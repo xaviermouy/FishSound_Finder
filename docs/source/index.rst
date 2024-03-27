@@ -55,6 +55,7 @@ Collaborators:
 
 Analysts :
 
+* Aislyn Adams
 
 * Cierra Hart
 

@@ -1,9 +1,5 @@
-.\data
-.\results
-.\model\config.yaml
-.\model\RF50_model_20201208T223420.sav
--d.\data\deployment_info.csv
--e.wav
--f
--r
--p
+--audio_folder=".\data"
+--output_folder=".\results"
+--model_file=".\models\FishNet_model_BC202403.kt"
+--threshold=0.996
+--deployment_file=".\data\deployment_info.csv"
