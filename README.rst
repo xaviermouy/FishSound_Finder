@@ -42,11 +42,18 @@ Collaborators:
 
 * Darienne Lancaster
 
-Analysts who provided manual annotations to train the model:
+
+Analysts :
+
+
 * Cierra Hart
+
 * Courtney Evans
+
 * Emie Woodburn
+
 * Erik Archer 
+
 
 Credits
 -------
