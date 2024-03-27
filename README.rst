@@ -25,14 +25,21 @@ Contributors
 ------------
 
 Lead developper:
+
 * `Xavier Mouy <https://xaviermouy.weebly.com/>`_
 
 Collaborators:
+
 * Dana Haggarty
+
 * Francis Juanes
+
 * `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`_
+
 * `Philina English <https://ecophilina.wordpress.com/>`_
+
 * Sarah Dudas
+
 * Darienne Lancaster
 
 Analysts who provided manual annotations to train the model:
