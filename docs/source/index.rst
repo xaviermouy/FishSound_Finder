@@ -40,17 +40,17 @@ Lead developper:
 
 Collaborators:
 
-* 'Dana Haggarty <https://profils-profiles.science.gc.ca/en/profile/dana-haggarty-phd-msc>'__
+* `Dana Haggarty <https://profils-profiles.science.gc.ca/en/profile/dana-haggarty-phd-msc>`__
 
-* 'Francis Juanes <https://juaneslab.weebly.com/>'__
+* `Francis Juanes <https://juaneslab.weebly.com/>`__
 
 * `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`__
 
 * `Philina English <https://ecophilina.wordpress.com/>`__
 
-* 'Sarah Dudas <https://sogdatacentre.ca/people/researchers/sarah-dudas/>'__
+* `Sarah Dudas <https://sogdatacentre.ca/people/researchers/sarah-dudas/>`__
 
-* 'Darienne Lancaster <https://www.researchgate.net/scientific-contributions/Darienne-Lancaster-2163078290>'__
+* `Darienne Lancaster <https://www.researchgate.net/scientific-contributions/Darienne-Lancaster-2163078290>`__
 
 
 Analysts :
@@ -63,6 +63,7 @@ Analysts :
 * Emie Woodburn
 
 * Erik Archer 
+
 
 License
 -------
