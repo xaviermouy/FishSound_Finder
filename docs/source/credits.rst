@@ -18,7 +18,7 @@ Credits
    :scale: 70 %
 
 .. image:: _static/ONC_logo.png
-   :scale: 70 %
+   :scale: 50 %
 
 
 
