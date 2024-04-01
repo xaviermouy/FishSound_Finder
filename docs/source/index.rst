@@ -52,6 +52,8 @@ Collaborators:
 
 * `Darienne Lancaster <https://www.researchgate.net/scientific-contributions/Darienne-Lancaster-2163078290>`__
 
+* `Bill Halliday <http://wdhalliday.weebly.com/>`__
+
 
 Analysts :
 
