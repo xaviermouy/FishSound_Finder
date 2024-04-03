@@ -59,5 +59,5 @@ pandas and Xarray.
 Contributors
 ------------
 
-Xavier Mouy leads this project in collaboration with Dana Haggarty (DFO), Francis Juanes (UVic), Stephanie Archer (LUMCON), Philina English (DFO), Sarah Dudas (DFO), Bill Halliday (WCS), and Darienne Lancaster (UVIC).
+Xavier Mouy (NOAA Fisheries) leads this project in collaboration with Dana Haggarty (DFO), Francis Juanes (UVic), Stephanie Archer (LUMCON), Philina English (DFO), Sarah Dudas (DFO), Bill Halliday (WCS), Darienne Lancaster (UVIC), and Sofie Van Parijs (NOAA Fisheries).
 Aislyn Adams, Cierra Hart, Courtney Evans, Emie Woodburn, and Erik Archer also provided manually annotated fish sounds. 
