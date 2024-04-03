@@ -44,17 +44,18 @@ Collaborators:
 
 * `Francis Juanes <https://juaneslab.weebly.com/>`__
 
-* `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`__
-
-* `Philina English <https://ecophilina.wordpress.com/>`__
-
 * `Sarah Dudas <https://sogdatacentre.ca/people/researchers/sarah-dudas/>`__
+
+* `Sofie Van Parijs <https://www.fisheries.noaa.gov/contact/sofie-van-parijs-phd>`__
+
+* `Stephanie Archer <https://lumcon.edu/stephanie-archer/>`__
 
 * `Darienne Lancaster <https://www.researchgate.net/scientific-contributions/Darienne-Lancaster-2163078290>`__
 
+* `Philina English <https://ecophilina.wordpress.com/>`__
+
 * `Bill Halliday <http://wdhalliday.weebly.com/>`__
 
-* `Sofie Van Parijs <https://www.fisheries.noaa.gov/contact/sofie-van-parijs-phd>`__
 
 
 Analysts :
