@@ -20,7 +20,7 @@ Credits
    :scale: 40 %
 
 .. image:: _static/NOAA_FISHERIES_logoH.png
-   :scale: 50 %
+   :scale: 15 %
 
 
 
