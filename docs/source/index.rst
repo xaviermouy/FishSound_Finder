@@ -54,6 +54,8 @@ Collaborators:
 
 * `Bill Halliday <http://wdhalliday.weebly.com/>`__
 
+* `Sofie Van Parijs <https://www.fisheries.noaa.gov/contact/sofie-van-parijs-phd>`__
+
 
 Analysts :
 
