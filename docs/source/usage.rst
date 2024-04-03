@@ -28,7 +28,6 @@ Optional arguments
 * **--class_id**:           Class ID to use. Default is 1.
 * **--tmp_dir**:            Path of temporary folder for the model and audio data. Default: created tmp folder in the output directory
 * **--deployment_file**:    Path of the deployment file. The deployment file is in the csv format and contains metadata about the deployment being analyzed. It can be created using the ecosound function ecosound.metadata.write_template, or by modifying the deployment file example located on GitHub `here <https://raw.githubusercontent.com/xaviermouy/FishSound_Finder/master/data/deployment_info.csv>`__. While using a deployment file is optional, it is highly recommended to use one, as it embeds all the metadata in the detection results which can facilitate the analysis of the results.
-deployment_info.csv with metadata.
 * **--deployment_id**:      Identification of the deployment being processed (for book keeping).
 * **--recursive**:          Process files from all folders and sub-folders. Default is False. (default: False)
 
