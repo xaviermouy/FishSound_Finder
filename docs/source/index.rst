@@ -24,6 +24,7 @@ Detection outputs from FishSound Finder are compatible with the popular bioacous
    Usage <usage.rst>
    Tutorial <example.rst>
    Contributing <contributing.rst>
+   Versions <versions.rst>
    Credits <credits.rst>
    	
 Status
