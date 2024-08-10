@@ -30,7 +30,7 @@ It was initially developped to detect fish sounds from the Northeast Pacific but
 Using FishSound Finder outside of the Northeast Pacific will typically require to use lower confidence thresholds. It is anticipated that in the future, FishSound Finder will have the option to
 detect species-specific sounds. Most likely candidates are haddock sounds in the Northwest Atlantic 
 (`Mouy et al. 2018 <https://asa.scitation.org/doi/10.1121/1.5036179>`__), and lingcod sounds off British Columbia 
-(`Mouy et al., 2019 <https://asa.scitation.org/doi/10.1121/1.5136904>`__). 
+(`Mouy et al., 2023 https://doi.org/10.1111/2041-210X.14095>`__). 
 
 How does it work?
 -----------------
@@ -41,7 +41,8 @@ FishSound Finder uses signal processing and deep learning techniques. The proces
 2. A median filter is applied to each row (frequency band) of the spectrogram to remove tonal sounds and increase the signal-to-noise ratio of acoustic transients. 
 3. A deep convolutional neural network (ResNet18) is then analysing consecutive sections of the spectrogram (typically 0.2 s at a time) to calculate the probability that a fish sound is present. Sections of the spectrogram that have a probability greater than the user-defined threshold will be defined as "detections". The ResNet model was trained on about 20,000 manually annotated fish and non-fish sounds collected at 7 different locations is the Strait of Georgia (British Columbia) by different model of recorders (AMAR, SoundTrap, IcListen). 
 
-A peer-reviewed scientific publication fully describing the approach and performance results is in the works and will be published in the near future.
+Check out our publication fully describing the approach and performance results:
+(`Mouy et al., 2024 <https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2024.1439995/>`__). 
 
 Who can use it?
 --------------------

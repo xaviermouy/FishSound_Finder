@@ -10,7 +10,7 @@ FishSound Finder can be installed from `PyPI <https://pypi.org/project/echopype/
 
    $ pip install fishsound_finder
 
-It is recommended to install FishSound Finder in a separate python 3.7 conda environment.
+It is recommended to install FishSound Finder in a separate python 3.9 conda environment.
 
 Longer version (python beginners)
 ---------------------------------
