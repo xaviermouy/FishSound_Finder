@@ -30,7 +30,7 @@ It was initially developped to detect fish sounds from the Northeast Pacific but
 Using FishSound Finder outside of the Northeast Pacific will typically require to use lower confidence thresholds. It is anticipated that in the future, FishSound Finder will have the option to
 detect species-specific sounds. Most likely candidates are haddock sounds in the Northwest Atlantic 
 (`Mouy et al. 2018 <https://asa.scitation.org/doi/10.1121/1.5036179>`__), and lingcod sounds off British Columbia 
-(`Mouy et al., 2023 https://doi.org/10.1111/2041-210X.14095>`__). 
+(`Mouy et al., 2023 <https://doi.org/10.1111/2041-210X.14095>`__). 
 
 How does it work?
 -----------------
