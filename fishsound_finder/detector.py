@@ -329,12 +329,12 @@ def define_detections(scores, seg_times_sec, spec_config, audio_repr, file, args
         detec_start_times_sec = [seg_times_sec[i] for i in start_indices]
         detec_end_times_sec = [seg_times_sec[i] for i in end_indices]
         detec_end_times_sec = [i + audio_repr[0]['spectrogram']['duration'] for i in detec_end_times_sec]
-        detec_scores = [np.median(scores[i:j + 1]) for i, j in zip(start_indices, end_indices)]
+        #detec_scores = [np.median(scores[i:j + 1]) for i, j in zip(start_indices, end_indices)]
+        detec_scores = [np.max(scores[i:j + 1]) for i, j in zip(start_indices, end_indices)]
     else:
         detec_start_times_sec = []
         detec_end_times_sec = []
         detec_scores = []
-        # detection scores (based on median of score values)
 
     # Save as ecosound annotation object
     if len(detec_start_times_sec) > 0:  # only if there are detections
