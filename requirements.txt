@@ -37,7 +37,6 @@ execnet==2.1.1
 executing==2.0.1
 fasteners==0.19
 filelock==3.15.4
-fishsound-finder==0.1.0
 flatbuffers==24.3.25
 flexcache==0.3
 flexparser==0.3.1
