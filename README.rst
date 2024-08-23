@@ -20,10 +20,22 @@ Documentation
 The documentation of FishSound Finder can be found here: https://fishsound-finder.readthedocs.io. It includes a description of the software,
 instructions on how to install and run it, as well as a tutorial.
 
+If you use FishSound Finder for your reserach, please cite our paper:
+
+Mouy X, Archer SK, Dosso S, Dudas S, English P, Foord C, Halliday W, Juanes F, Lancaster D, Van Parijs S and Haggarty D (2024). Automatic
+detection of unidentified fish sounds: a comparison of traditional machine learning with deep learning. Front. Remote Sens. 5:1439995.
+`https://doi.org/10.3389/frsen.2024.1439995 <https://doi.org/10.3389/frsen.2024.1439995>`_
+
 Status
 ------
 FishSound Finder has been tested on a number of different environments and is considered stable. We are keen to keep improving FishSound Finder and 
 encourage users to get in touch with us to provide feedback and report issues/bugs.
+
+Reference
+---------
+
+
+
 
 Contributors
 ------------
